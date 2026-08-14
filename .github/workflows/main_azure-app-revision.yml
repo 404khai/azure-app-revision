@@ -59,4 +59,4 @@ jobs:
           app-name: 'azure-app-revision'
           slot-name: 'Production'
           package: .
-          
+
