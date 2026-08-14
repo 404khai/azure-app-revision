@@ -18,6 +18,13 @@ app.get("/students", (req, res) => {
     ]);
 });
 
+app.get("/teachers", (req, res) => {
+    res.json([
+        { name: "John", course: "ADSE" },
+        { name: "James", course: "ACCP" }
+    ]);
+});
+
 app.listen(PORT, () => {
     console.log(`Server running on port ${PORT}`);
 });
